@@ -1,1 +1,1 @@
-web: gunicorn ytdl_audio_api.app:app
+web: pip install -r requirements.txt; gunicorn -c gunicorn.py ytdl_audio_api.wsgi
