@@ -1,1 +1,1 @@
-web: gunicorn ytdl_audio_api.wsgi
+web: gunicorn ytdl_audio_api.app:app
