@@ -1,1 +1,1 @@
-web: gunicorn ytdl_audio_api.wgsi
+web: gunicorn.py ytdl_audio_api.wgsi
